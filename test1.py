@@ -170,4 +170,4 @@ while True:
             pen.clear()
             pen.write("得分: {}  最高分: {}".format(score, high_score), align="center", font=("Arial", 24, "normal"))
     
-    time.sleep(0.1)
+    time.sleep(0.1)      # 延迟0.1秒，降低游戏速度
